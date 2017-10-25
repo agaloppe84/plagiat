@@ -1,0 +1,73 @@
+body {
+  font-family: 'Lora';
+  margin: 0;
+}
+
+h1, h3 {
+  font-family: 'Montserrat';
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("http://unsplash.it/1000/500?random");
+  padding: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.banner h2 {
+  color: white;
+  opacity: 0.7;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container h3 {
+  color: rgb(180, 180, 180);
+}
+
+.container p {
+  line-height: 1.8;
+  color: rgb(100, 100, 100);
+}
+
+.link-hover-green {
+  background-color: rgba(20, 240, 20, 0.2);
+  font-size: 18px;
+  color: rgb(180, 180, 180);
+  font-style: italic;
+  transition: 0.7s ease;
+}
+
+.link-hover-green:hover {
+  background-color: rgba(20, 240, 20, 0.8);
+}
+
+
+@media(max-width: 768px) {
+  .container {
+    width: 400px;
+  }
+  .banner {
+    padding: 50px;
+  }
+  .banner h1 {
+    font-size: 28px;
+  }
+  .banner h2 {
+    font-size: 16px;
+  }
+}
